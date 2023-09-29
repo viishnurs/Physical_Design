@@ -1,0 +1,7 @@
+all the INPUTS files are added in the inputs folder / directory there are:
+        1.ORCA_TOP.v
+        2.ORCA_TOP.upf
+        3.ORCA_TOP.scandef
+        4.ORCA_TOP.tf
+        5.ORCA_TOP.tluplus
+and all the ndm files for creating of ORCA_TOP.lib
