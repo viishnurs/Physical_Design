@@ -1,0 +1,77 @@
+all the outputs work are stored in this folder those are all the log files and reports of individual flow of Physical Design :
+          1. WORK - for all the library i,e.. ORCA_TOP.nlib 
+          2.import_design - importing the design from the gatelevel netlist and giving the design in ICC2 
+          3.floorplan - creating of die area -outer boundary 
+                                    core area -innder bounday   
+                                    locating the area for placement of Macros 
+                                    Macro placement guidlines 
+                                    I/O ports 
+          4.powerplanning -
+                              equal distribution of power /GND
+                              Creation of straps/rails/rings
+          5.Placement -  
+                              placement of standard cells 
+                              congestion checking 
+          6.CTS(Clock Tree Synthesis) -  
+                                        clock should get propogated and connected for sequential cells
+                                        clock tree topology :  
+                                                              H-tree
+                                                              X-tree
+                                                              fishbone
+                                                              Mesh pattern etc... 
+
+          7.Routing - 
+                            Power routing - after floorplan
+                            Clock routing - after CTS
+                            signal routing - Routing
+                            signal routing
+                            connection of all inputs after standard cells will get completed in routing stage
+
+          8.Signoff - 
+                            Physical verification 
+                                      DRC(Design rule check)
+                                      LVS(layout vs Scahematic)
+                                      LEC(layout equibalance check)
+                                      Timing ECO's (Engineering change order)
+                                      Power ECO's  
+                                      Metal ECO's
+                              
+
+          9.Tapeout -   
+                          conversition of Physical design to GDSII file and send it to foundary
+
+
+          10.Packaging -
+
+                          flip chip
+                          wire bound
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
