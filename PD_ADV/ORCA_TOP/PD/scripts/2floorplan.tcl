@@ -89,7 +89,11 @@ save_block -as floorplanning_main
 
 list_blocks
 
-source ./scripts/loading_upf.tcl
+load_upf ./inputs/ORCA_TOP.upf
+
+report_power_domains
+
+commit_upf
 
 source ./scripts/vol_area_creation.tcl
 va_create PD_RISC_CORE pb_0 5.016
