@@ -12,7 +12,7 @@
 #
 open_lib ./outputs/work/ORCA_TOP.nlib
 list_blocks
-open_block floor_planning
+open_block import_design
 link_block 
 start_gui
 
