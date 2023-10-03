@@ -14,3 +14,10 @@ check_leagality
 
 
 save_block -as boundary_tap_placement
+
+
+### SANITY CHECKS 
+
+check_mv_design
+create_utilization -configration -include all fp
+report_utilization -config fp
