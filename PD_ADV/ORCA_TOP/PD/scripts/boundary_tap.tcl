@@ -1,3 +1,8 @@
+#### voltage area creation 
+source ./scripts/vol_area_creation.tcl
+va_create PD_RISC_CORS pb_0 5.016
+
+
 ### placement of boundary cells
 
 set_boundary_cell_rules -left_boundary_cell saed32_hvt|saed32_hvt_std/DCAP_HVT -right_boundary_cell saed32_hvt|saed32_hvt_std/DCAP_HVT -at_va_boundary
