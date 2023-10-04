@@ -85,9 +85,24 @@ set_block_pin_constraints -sides 3 -pin_spacing 5 -allowed_layers {M5 M3} -corne
 
 place_pins -ports [all_outputs ]
 
-save_block -as floorplanning_main
+
+
 
 list_blocks
+
+
+##########################################################################
+############## ADDING MACROS INSIDE THE CORE AREA					##################
+######################################################################################
+
+set_app_options -list {plan.macro.grouping_by_hierarchy true plan.macro.macro_place_only true plan.place.auto_create_blockages none }
+
+create_placement -floorplan
+
+
+
+
+
 
 load_upf ./inputs/ORCA_TOP.upf
 
@@ -95,5 +110,23 @@ report_power_domains
 
 commit_upf
 
-source ./scripts/vol_area_creation.tcl
-va_create PD_RISC_CORE pb_0 5.016
+save_block -as floorplanning_main
+
+
+###########   and place  placement_blockage inside core area 
+
+####### after placemtn use vol_area_creation.tcl 
+#############3 AFTER THAT USE boundary_tap.tcl 
+
+
+
+######## BOUNDARY CELLS 
+
+
+####### TAP CELLS
+
+
+
+########## SANITY CHECKS 
+#check_mv_design
+#report_utilization
