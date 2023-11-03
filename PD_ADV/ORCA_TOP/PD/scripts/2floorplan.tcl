@@ -96,7 +96,7 @@ list_blocks
 ######################################################################################
 
 set_app_options -list {plan.macro.grouping_by_hierarchy true plan.macro.macro_place_only true plan.place.auto_create_blockages none }
-
+source ./scripts/auto_macro_placement.tcl
 create_placement -floorplan
 
 
