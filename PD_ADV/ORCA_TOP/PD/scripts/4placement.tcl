@@ -312,3 +312,15 @@ report_global_timing
 	report_timing -transition_time -nosplit -significant_digits 3 -max_paths 175 > ./outputs/sv_aro.txt
 	source ./scripts/bottle_neck_cell.tcl
 	 size_cell I_BLENDER_1/U3693 INVX1_LVT
+	# Load splitting 
+	# Path grouping : group the paths and assign weigtage to most violating paths which has to be given more importance during 
+			# optimization 
+			# cost = WNS in group * Weightage 
+		group_path -from [get_flat_cells *I_BLENDER*] -to [get_flat_cells *I_BLENDER*] -weight 5 -name i_blender
+		group_path -from [get_flat_cells *I_PARSER*] -to [get_flat_cells *I_PARSER*] -weight 3 -name i_parser
+		group_path -from [get_flat_cells *I_SDRAM_TOP*] -to [get_flat_cells *I_SDRAM_TOP*] -weight 4 -name i_sdram
+		remove_routes -global_route 
+		place_opt -from initial_opto
+		save_block -as place_opt_done_with_pg
+		route_global
+		report_global_timing 	:
