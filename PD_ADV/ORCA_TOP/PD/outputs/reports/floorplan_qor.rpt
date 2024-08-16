@@ -1,0 +1,65 @@
+****************************************
+Report : qor
+Design : ORCA_TOP
+Version: S-2021.06-SP2
+Date   : Fri Aug 16 22:30:39 2024
+****************************************
+
+
+
+Cell Count
+----------------------------------------
+Hierarchical Cell Count:             54
+Hierarchical Port Count:           1876
+Leaf Cell Count:                  52047
+Buf/Inv Cell Count:                6381
+Buf Cell Count:                    3017
+Inv Cell Count:                    3364
+CT Buf/Inv Cell Count:                0
+Combinational Cell Count:         46620
+   Single-bit Isolation Cell Count:                        0
+   Multi-bit Isolation Cell Count:                         0
+   Isolation Cell Banking Ratio:                           0.00%
+   Single-bit Level Shifter Cell Count:                    100
+   Multi-bit Level Shifter Cell Count:                     0
+   Level Shifter Cell Banking Ratio:                       0.00%
+   Single-bit ELS Cell Count:                              0
+   Multi-bit ELS Cell Count:                               0
+   ELS Cell Banking Ratio:                                 0.00%
+Sequential Cell Count:             5427
+   Integrated Clock-Gating Cell Count:                     23
+   Sequential Macro Cell Count:                            40
+   Single-bit Sequential Cell Count:                       5364
+   Multi-bit Sequential Cell Count:                        0
+   Sequential Cell Banking Ratio:                          0.00%
+   BitsPerflop:                                            1.00
+Macro Count:                         40
+----------------------------------------
+
+
+Area
+----------------------------------------
+Combinational Area:           126028.23
+Noncombinational Area:         49257.68
+Buf/Inv Area:                  14283.40
+Total Buffer Area:              8660.47
+Total Inverter Area:            5622.94
+Macro/Black Box Area:         264884.27
+Net Area:                             0
+Net XLength:                  447836.98
+Net YLength:                  454380.46
+----------------------------------------
+Cell Area (netlist):                         440170.18
+Cell Area (netlist and physical only):       454647.49
+Net Length:                   902217.44
+
+
+Design Rules
+----------------------------------------
+Total Number of Nets:             56776
+Nets with Violations:             10520
+Max Trans Violations:             10497
+Max Cap Violations:                  30
+----------------------------------------
+
+1
