@@ -4,6 +4,7 @@
 # cutting metal layer - shift + l 
 # for manual routing - shift + r 
 # for adding of buffers - shift + c 
+# to find the open in the desing the location of the open net. 
 check_lvs -open_report detailed -net {net_name}
 
 # Checks after Routing  	
