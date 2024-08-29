@@ -3,6 +3,8 @@
 # Extending - s 
 # cutting metal layer - shift + l 
 # for manual routing - shift + r 
+# for adding of buffers - shift + c 
+check_lvs -open_report detailed -net {net_name}
 
 # Checks after Routing  	
 	# Check LVS 
