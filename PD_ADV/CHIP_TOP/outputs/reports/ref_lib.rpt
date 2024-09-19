@@ -1,0 +1,24 @@
+****************************************
+Report : Reference Library Report
+Library: Chiptop.nlib
+Version: S-2021.06-SP2
+Date   : Wed Sep 11 19:21:21 2024
+****************************************
+
+    Name                          Path                              Location
+    ------------------------------------------------------------------------
+*+  saed14hvt_frame_only          saed14hvt_frame_only.ndm          /home/tools/14nm_Libraries/stdcell_hvt/ndm/saed14hvt_frame_only.ndm
+*+  saed14hvt_frame_timing_ccs    saed14hvt_frame_timing_ccs.ndm    /home/tools/14nm_Libraries/stdcell_hvt/ndm/saed14hvt_frame_timing_ccs.ndm
+*+  saed14lvt_frame_only          saed14lvt_frame_only.ndm          /home/tools/14nm_Libraries/stdcell_lvt/ndm/saed14lvt_frame_only.ndm
+*+  saed14lvt_frame_timing_ccs    saed14lvt_frame_timing_ccs.ndm    /home/tools/14nm_Libraries/stdcell_lvt/ndm/saed14lvt_frame_timing_ccs.ndm
+*+  saed14rvt_frame_only          saed14rvt_frame_only.ndm          /home/tools/14nm_Libraries/stdcell_rvt/ndm/saed14rvt_frame_only.ndm
+*+  saed14rvt_frame_timing_ccs    saed14rvt_frame_timing_ccs.ndm    /home/tools/14nm_Libraries/stdcell_rvt/ndm/saed14rvt_frame_timing_ccs.ndm
+*+  saed14slvt_frame_only         saed14slvt_frame_only.ndm         /home/tools/14nm_Libraries/stdcell_slvt/ndm/saed14slvt_frame_only.ndm
+*+  saed14slvt_frame_timing_ccs   saed14slvt_frame_timing_ccs.ndm   /home/tools/14nm_Libraries/stdcell_slvt/ndm/saed14slvt_frame_timing_ccs.ndm
+*+  saed14_sram_1rw_frame_only    saed14_sram_1rw_frame_only.ndm    /home/tools/14nm_Libraries/SAED14nm_EDK_SRAM_v_05072020/lib/sram/ndm/saed14_sram_1rw_frame_only.ndm
+*+  saed14_sram_2rw_frame_only    saed14_sram_2rw_frame_only.ndm    /home/tools/14nm_Libraries/SAED14nm_EDK_SRAM_v_05072020/lib/sram/ndm/saed14_sram_2rw_frame_only.ndm
+*+  saed14_sram_lp_1rw_frame_only saed14_sram_lp_1rw_frame_only.ndm /home/tools/14nm_Libraries/SAED14nm_EDK_SRAM_v_05072020/lib/sram_lp/ndm/saed14_sram_lp_1rw_frame_only.ndm
+*+  saed14_sram_lp_2rw_frame_only saed14_sram_lp_2rw_frame_only.ndm /home/tools/14nm_Libraries/SAED14nm_EDK_SRAM_v_05072020/lib/sram_lp/ndm/saed14_sram_lp_2rw_frame_only.ndm
+    "*" = Library currently open
+    "+" = Library has technology information
+1
