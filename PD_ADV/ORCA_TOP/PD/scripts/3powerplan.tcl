@@ -14,7 +14,7 @@ remove_pg_regions -all
 remove_pg_via_master_rules -all
 remove_pg_strategy_via_rules -all
 remove_routes -net_types {power ground} -ring -stripe -macro_pin_connect -lib_cell_pin_connect
-
+remove_shapes [get_shapes -hierarchical -filter "shape_use == follow_pin" ] -force
 
 source ./scripts/boundary_tap.tcl
 
